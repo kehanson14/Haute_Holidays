@@ -1,4 +1,4 @@
-<style>
+
 body {
   margin: 0;
   font-size: 16px;
@@ -13,40 +13,49 @@ body {
 
 #navbar {
   overflow: hidden;
-  background-color: #333;
-}
-
-#navbar a {
-  float: left;
-  display: block;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-}
-
-#navbar a:hover {
-  background-color: #ddd;
-  color: black;
-}
-
-#navbar a.active {
   background-color: #000000;
-  color: white;
-}
-
-.content {
-  padding: 16px;
-}
-
-.sticky {
   position: fixed;
   top: 0;
   width: 100%;
 }
 
-.sticky + .content {
-  padding-top: 60px;
+#navbar a {
+  float: left;
+  display: block;
+  color: #ffffff;
+  text-align: right;
+  padding: 18px 18px;
+  text-decoration: none;
+  font-size: 16px;
 }
-</style>
+
+#navbar a:hover {
+  background-color: #edeae6;
+  color: black;
+}
+
+
+#navbar a.active {
+  background-color: #d6d7d6;
+  color: black;
+}
+
+.topnav-right {float: right;}
+
+.button {
+background-color: white;
+border: 2px solid black;
+color: black;
+padding: 16px 16px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 18px;
+margin: 2px 2px;
+cursor: pointer;
+}
+
+.button:hover {
+  background-color: black;
+  color: white
+}
