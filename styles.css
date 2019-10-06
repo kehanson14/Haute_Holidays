@@ -13,6 +13,14 @@ h2 {
   text-align: center;
 }
 
+h3 {
+  text-align: center;
+}
+
+div {
+  padding-left: 50px
+}
+
 /* HEADER (i dont have one) */
 
 .header {
@@ -27,7 +35,8 @@ h2 {
   color: white;
   background-color: black;
   text-align: center;
-  height: 100px;
+  height: 170px;
+  padding: 10px;
 }
 
 /* NAVBAR */
@@ -56,10 +65,6 @@ h2 {
   color: black;
 }
 
-#navbar a.active {
-  background-color: #d6d7d6;
-  color: black;
-}
 
 .topnav-right {float: right;}
 
@@ -100,6 +105,21 @@ cursor: pointer;
   padding-left: 20px;
 }
 
+/* FOOTER COLUMNS */
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 50%;
+  padding: 15px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
 
 /* RESPONSIVE LAYOUTS*/
 
