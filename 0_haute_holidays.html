@@ -4,23 +4,25 @@
   <title>HAUTE HOLIDAYS by Haute House Studio </title>
   <link rel="stylesheet" type="text/css" href="styles.css">
   <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
 <body>
 <div
   id="navbar"
-  class="topnav">
+  class="myTopnav">
     <a class="active" href="https://kehanson14.github.io/Haute_Holidays/index.html">LOGO</a>
       <div class="topnav-right">
-    <a href="https://kehanson14.github.io/Haute_Holidays/1-1_team.html">ABOUT</a>
-    <a href="https://kehanson14.github.io/Haute_Holidays/2_market.html">HOLIDAY MARKET</a>
-    <a href="https://kehanson14.github.io/Haute_Holidays/3_events.html">PRIVATE EVENTS</a>
-    <a href="https://kehanson14.github.io/Haute_Holidays/5_order.html">FRESH DECOR</a>
-    <a href="https://www.hautehousestudio.com/contact">CONTACT</a>
-      </div>
+    <a href="https://kehanson14.github.io/Haute_Holidays/1-1_team.html" class="w3-bar-item w3-button w3-mobile">ABOUT</a>
+    <a href="https://kehanson14.github.io/Haute_Holidays/2_market.html" class="w3-bar-item w3-button w3-mobile">HOLIDAY MARKET</a>
+    <a href="https://kehanson14.github.io/Haute_Holidays/3_events.html" class="w3-bar-item w3-button w3-mobile">PRIVATE EVENTS</a>
+    <a href="https://kehanson14.github.io/Haute_Holidays/5_order.html" class="w3-bar-item w3-button w3-mobile">FRESH DECOR</a>
+    <a href="https://www.hautehousestudio.com/contact" class="w3-bar-item w3-button w3-mobile">CONTACT</a>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+ <i class="fa fa-bars"></i>
+</a></div>
   </div>
-
 
 <style>
 body, html {
@@ -72,7 +74,7 @@ body, html {
       </div>
 
       <div class="rightcolumn">
-        <a href="https://kehanson14.github.io/Haute_Holidays/1-1_team.html" class="button">YOUR TEAM / VALUES / HISTORY</a>
+        <a href="https://kehanson14.github.io/Haute_Holidays/1-1_team.html" class="button">TEAM / VALUES / HISTORY</a>
         <br><a href="https://hautehousestudio.com" class="button">HOME SITE</a>
       </div>
     </div>
@@ -80,8 +82,8 @@ body, html {
 
   <div class="w3-container">
     <h2>HOLIDAY MARKET &amp; IDEAS HOUSE</h2>
-      <div class="leftcolumn">
-      <h3><p>Local gifts made with love for those you love.</p></h3>
+
+       <div class="leftcolumn"<h3>Local gifts made with love for those you love.</h3>
           <p>In-studio and online throughout December.</p>
       </div>
 
@@ -90,6 +92,18 @@ body, html {
       </div>
     </div>
 
+<div class="row">
+  <div class="imgcolumn">
+    <img src="sharingpresents.jpg" alt="giving gifts" style="width:100%">
+  </div>
+  <div class="imgcolumn">
+    <img src="sharingpresents.jpg" alt="Forest" style="width:100%">
+  </div>
+  <div class="imgcolumn">
+    <img src="sharingpresents.jpg" alt="Mountains" style="width:100%">
+  </div>
+</div>
+</div>
 
   <div class="w3-container">
     <h2>PRIVATE EVENTS</h2>
@@ -138,6 +152,16 @@ body, html {
     </div>
 </div></div></div>
 
+<script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
 
 </body>
 </html>
