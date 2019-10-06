@@ -1,12 +1,7 @@
 
-body {
-  margin: 0;
-  font-size: 24px;
-  font-family: Arial, Helvetica, sans-serif;
-}
-
 h1 {
   text-align: center;
+  font-family: Georgia, serif;
 }
 
 h2 {
@@ -17,7 +12,8 @@ h3 {
   text-align: center;
 }
 
-div {font-size: medium;}
+div {font-size: medium;
+font-family: Arial, Helvetica, sans-serif;}
 
 /* HEADER (i dont have one) */
 
@@ -76,6 +72,7 @@ padding: 15px;
 text-align: center;
 text-decoration: none;
 display: inline-block;
+font-family: Georgia, serif;
 font-size: 18px;
 margin: 2px 2px;
 cursor: pointer;
@@ -108,7 +105,8 @@ cursor: pointer;
 .imgcolumn {
   float: left;
   width: 33.33%;
-  padding: 10px;
+  padding: 5px;
+  object-fit: cover;
 }
 
 /* FOOTER COLUMNS */
