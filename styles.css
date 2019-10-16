@@ -83,6 +83,10 @@ p.small {font-size: small;}
 
 .topnav-right {float: right;}
 
+
+#navbar .icon {
+  display: none;
+}
 /* BUTTONS */
 
 .button {
@@ -163,11 +167,28 @@ make the two columns stack on top of each other instead of next to each other */
   }
 }
 
-/* navbar-- Responsive layout - when the screen is less than 400px wide,
+/* navbar-- Responsive layout - when the screen is less than 980px wide,
 make the navigation links stack on top of each other instead of next to each other */
-@media screen and (max-width: 400px) {
-  .topnav a {
+
+
+@media screen and (max-width: 980px) {
+  #navbar a {display: none;}
+  #navbar a.icon {
+    float: left;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 980px) {
+  #navbar.responsive {position: relative;}
+  #navbar.responsive .icon {
+    position: fixed;
+    left: 0;
+    top: 0;
+  }
+  #navbar.responsive a {
     float: none;
-    width: 100%;
+    display: block;
+    text-align: right;
   }
 }
