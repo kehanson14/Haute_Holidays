@@ -1,4 +1,9 @@
 
+@font-face {
+  font-family: "puzzled";
+  src: url(Gotham-Light copy.otf);
+}
+
 h1 {
   text-align: center;
   font-family: Georgia, serif;
@@ -13,7 +18,10 @@ h3 {
 }
 
 div {font-size: medium;
-font-family: Arial, Helvetica, sans-serif;}
+font-family: Georgia, serif;}
+
+.puzzled {font-family: "puzzled", Georgia, serif;}
+
 
 /* HEADER (i dont have one) */
 
@@ -126,7 +134,7 @@ cursor: pointer;
 .vendorcolumn {
   float: left;
   width: 25%;
-  padding: 10px;
+  padding: 20px;
 }
 
 /* Clear floats after the columns */
