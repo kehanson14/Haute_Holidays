@@ -52,6 +52,12 @@ footer {
   padding: 10px;
 }
 
+footer.column {
+  float: left;
+  width: 50%;
+  padding: 15px;
+}
+
 /* NAVBAR */
 
 #navbar {
@@ -142,11 +148,6 @@ cursor: pointer;
   padding: 15px;
 }
 
-.footercolumn {
-  float: left;
-  width: 50%;
-  padding: 15px;
-}
 
 .vendorcolumn {
   float: left;
