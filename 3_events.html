@@ -26,6 +26,8 @@
         <a href="https://kehanson14.github.io/Haute_Holidays/3_events.html" class="w3-bar-item w3-button w3-mobile">PRIVATE EVENTS</a>
         <a href="https://kehanson14.github.io/Haute_Holidays/5_order.html" class="w3-bar-item w3-button w3-mobile">HOLIDAY DECOR</a>
         <a href="https://www.hautehousestudio.com/contact" class="w3-bar-item w3-button w3-mobile">CONTACT</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i></a>
           </div>
     </div>
 
@@ -146,6 +148,17 @@
           <br>
       </div>
   </div></div>
+
+  <script>
+  function myFunction() {
+    var x = document.getElementById("navbar");
+    if (x.className === "topnav") {
+      x.className += " responsive";
+    } else {
+      x.className = "topnav";
+    }
+  }
+  </script>
 
 </body>
 </html>
