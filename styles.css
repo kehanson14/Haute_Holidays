@@ -16,16 +16,19 @@ h2 {
 
 h3 {
   text-align: center;
-  font-family: Georgia, serif;
+  font-family: 'Lora', serif;
 }
 
 h4 {
   text-align: center;
-  font-family: Georgia, serif;
+  font-family: 'Lora', serif;
 }
 
 div {font-size: medium;
-font-family: Georgia, serif;}
+  font-family: 'Lora', serif;}
+
+p {font-family: 'Lora', serif;}
+
 
 .puzzled {font-family: "puzzled", Georgia, serif;}
 
