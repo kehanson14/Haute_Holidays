@@ -172,7 +172,7 @@ make the navigation links stack on top of each other instead of next to each oth
 
 
 @media screen and (max-width: 980px) {
-  #navbar a {display: none;}
+  #navbar a:not(:first-child) {display: none;}
   #navbar a.icon {
     float: left;
     display: inline-block;
