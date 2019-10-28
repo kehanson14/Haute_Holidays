@@ -119,6 +119,11 @@ cursor: pointer;
   padding: 15px;
 }
 
+.aboutcolumn {
+  float: left;
+  width: 50%;
+  padding: 15px;
+}
 
 .vendorcolumn {
   float: left;
@@ -137,12 +142,20 @@ cursor: pointer;
 
 /* columns -- Responsive layout - when the screen is less than 800px wide,
 make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 1100px) {
+  .aboutcolumn {
+    width: 100%;
+    padding: 0;
+  }
+}
+
 @media screen and (max-width: 800px) {
   .leftcolumn, .rightcolumn, .column, .vendorcolumn {
     width: 100%;
     padding: 0;
   }
 }
+
 
 @media screen and (max-width: 200px) {
   .footercolumn {
