@@ -118,6 +118,18 @@ cursor: pointer;
  padding-right: 50px;
 }
 
+.leftcolumnvendor {
+  float: left;
+  width: 33%;
+  text-align: left;
+  padding-left: 50px;
+}
+
+.rightcolumnvendor {
+  float: right;
+  width: 67%;
+  padding-left: 50px;
+}
 
 /* Three image containers */
 .imgcolumn {
@@ -175,7 +187,7 @@ make the two columns stack on top of each other instead of next to each other */
 }
 
 @media screen and (max-width: 800px) {
-  .leftcolumn, .rightcolumn, .column, .vendorcolumn {
+  .leftcolumn, .rightcolumn, .column, .vendorcolumn, .leftcolumnvendor, .rightcolumnvendor {
     width: 100%;
     padding: 0;
   }
