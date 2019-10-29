@@ -121,8 +121,7 @@ cursor: pointer;
 .leftcolumnvendor {
   float: left;
   width: 33%;
-  text-align: left;
-  padding-left: 50px;
+  text-align: center;
 }
 
 .rightcolumnvendor {
