@@ -146,7 +146,14 @@ cursor: pointer;
 .column {
   float: left;
   width: 50%;
-  padding: 15px;
+  padding: 10px;
+  object-fit: cover;
+}
+
+.halfcolumn {
+  float: left;
+  width: 50%;
+  padding: 10px;
   object-fit: cover;
 }
 
@@ -188,7 +195,7 @@ make the two columns stack on top of each other instead of next to each other */
 }
 
 @media screen and (max-width: 800px) {
-  .leftcolumn, .rightcolumn, .column, .vendorcolumn, .leftcolumnvendor, .rightcolumnvendor, .video {
+  .leftcolumn, .rightcolumn, .vendorcolumn, .leftcolumnvendor, .rightcolumnvendor, .column {
     width: 100%;
     padding: 0;
   }
